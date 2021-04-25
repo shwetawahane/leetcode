@@ -17,6 +17,7 @@ import sys
 #  2. INTEGER k
 
 def letters(curr):
+    # check if all letters in this substring are same.
     og = curr[0]
     for j in range(len(curr)):
         if curr[j]!=og:
@@ -24,10 +25,13 @@ def letters(curr):
     return True
         
 def calc(word,k):
+    # check each substring of length k in the given word
+        
     for i in range(0,len(word)):
         if i+k-1<len(word):
             curr = word[i:i+k]
             if letters(curr) == True:
+                #if a substring with all same letters is found, we remove it from the original word and return the new word.
                 new_word = word.replace(curr,'')
                 f = True
                 return new_word,f
@@ -36,9 +40,6 @@ def calc(word,k):
     
 def compressWord(word, k):
     # Write your code here
-    # result = get_result(word,k)
-    # result = get_result(result,k)
-    # return result
     flag = True
     while flag == True:
         word,f = calc(word,k)
