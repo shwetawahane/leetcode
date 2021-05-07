@@ -12,10 +12,10 @@ The car must abide by the following two rules: it cannot cross the diagonal bord
 
 Explain the correctness of your function, and analyze its time and space complexities.
 
-Test Input and Output:
-num_of_paths_to_dest(1) = 1
-num_of_paths_to_dest(2) = 1
-num_of_paths_to_dest(3) = 2
-num_of_paths_to_dest(4) = 5
-num_of_paths_to_dest(6) = 42
-num_of_paths_to_dest(17) = 35357670
+Test Input and Output:  
+num_of_paths_to_dest(1) = 1  
+num_of_paths_to_dest(2) = 1  
+num_of_paths_to_dest(3) = 2  
+num_of_paths_to_dest(4) = 5  
+num_of_paths_to_dest(6) = 42  
+num_of_paths_to_dest(17) = 35357670  
