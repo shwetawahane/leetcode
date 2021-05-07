@@ -22,3 +22,34 @@ num_of_paths_to_dest(3)
 num_of_paths_to_dest(4)
 num_of_paths_to_dest(6)
 num_of_paths_to_dest(17)
+
+# Dynamic programming- Memoization approach
+def num_of_paths_to_dest(n):
+  memo = {}
+  return recurse(0,0,n, memo)
+
+def recurse(i, j, n, memo):
+  key = str(i)+","+str(j) 
+  if key in memo:
+      return memo[key]
+  if i == n-1 and j== n-1:
+      return 1
+    
+  if i > n-1 or j > n-1:
+      return 0
+    
+  if j > i:
+      return 0 
+    
+  memo[key] = recurse(i,j+1, n, memo) + recurse(i+1,j,n, memo) 
+  return memo[key]
+  
+num_of_paths_to_dest(1)
+num_of_paths_to_dest(2)
+num_of_paths_to_dest(3)
+num_of_paths_to_dest(4)
+num_of_paths_to_dest(6)
+num_of_paths_to_dest(17)
+
+
+    
