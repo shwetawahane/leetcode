@@ -20,6 +20,7 @@ num_of_paths_to_dest(4) = 5
 num_of_paths_to_dest(6) = 42  
 num_of_paths_to_dest(17) = 35357670  
 
+---
 
 Question: 189. Rotate Array
 Given an array, rotate the array to the right by k steps, where k is non-negative.   
