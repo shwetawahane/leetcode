@@ -11,4 +11,5 @@ My solutions to online coding questions from leetcode, hackerRank, etc.
 | 3.    | [Array of Array Products](https://github.com/shwetawahane/leetcode/blob/master/Array_Of_Array_Products/ArrayOfArrayProducts.md) | Pramp Question |
 | 4.    | [ParkingSystem](https://github.com/shwetawahane/leetcode/blob/master/ParkingSystem/ParkingSystem.md) | Easy |
 | 5.    | [Implement strStr()](https://github.com/shwetawahane/leetcode/blob/master/Implement_strStr()/NeedleInHaystack.md) | Easy |
+| 6.    | [Merging Two Packages](https://github.com/shwetawahane/leetcode/blob/master/Merging2Packages/Merging2Packages.md) | Pramp Question |
 
