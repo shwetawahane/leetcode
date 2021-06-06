@@ -12,5 +12,5 @@ My solutions to online coding questions from leetcode, hackerRank, etc.
 | 4.    | [ParkingSystem](https://github.com/shwetawahane/leetcode/blob/master/ParkingSystem/ParkingSystem.md) | Easy |
 | 5.    | [Implement strStr()](https://github.com/shwetawahane/leetcode/blob/master/Implement_strStr()/NeedleInHaystack.md) | Easy |
 | 6.    | [Merging Two Packages](https://github.com/shwetawahane/leetcode/blob/master/Merging2Packages/Merging2Packages.md) | Pramp Question |
-| 6.    | [Remove Duplicates From Sorted Array](https://github.com/shwetawahane/leetcode/blob/master/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.md) | Easy |
+| 7.    | [Remove Duplicates From Sorted Array](https://github.com/shwetawahane/leetcode/blob/master/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.md) | Easy |
 
